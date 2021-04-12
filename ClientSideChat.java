@@ -9,7 +9,7 @@ class ClientSideChat
 	{
 		/*client in socket programming must know IP address of Server and Port number*/
 		//create instance of Socket class
-		Socket s = new Socket("192.168.0.110",5599);
+		Socket s = new Socket("localhost",5599);
 		
 		System.out.println("---Connected to Server---");
 		
